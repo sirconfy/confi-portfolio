@@ -1,0 +1,183 @@
+/* RESET DEFAULT STYLES */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+.overview{
+  display: flex;
+}
+
+img{
+  height: 100px;
+  width:100px;
+  border-radius: 100%;
+  margin-left: 30%;
+}
+.spacing{
+  line-height: 20rem;
+}
+
+
+.overview #collect{
+  flex-direction: column;
+  position: static; 
+}
+
+#collect{
+  background-color: rgb(85, 81, 81);
+  height: 100vh; 
+  max-width: 250px;
+  flex-grow: 1;
+  padding: 40px;
+  
+
+
+}
+
+
+
+ /* SOCIAL MEDIA ICONS */
+ .social-buttons {
+  position: relative;
+  /* right: 14rem; */
+  display: flex;
+  /* flex-direction: column; */
+  
+}
+.social-buttons a {
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 4px 0;
+}
+
+
+
+
+
+.social-buttons a:hover::before {
+  transform: scale(0);
+}
+
+
+.social-buttons a i {
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i {
+  background: linear-gradient(45deg, #a3a1a1, #6b3333);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: rgb(28, 28, 138);
+  transform: scale(2.2);
+} 
+
+
+
+/* utilities */
+h3{
+  color: #fff;
+  text-align: center;
+  font: bold;
+}
+
+
+
+
+.nav-items{
+  display: flex;
+  flex-direction: column;
+  /* padding: 0px 0; */
+}
+
+.nav-items a {
+  text-decoration: none;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+
+}
+
+
+
+
+.nav-items a:hover,
+.nav-items a.nav-links{
+
+  color: #f7c08a;
+} 
+
+.nav-items a.nav-links {
+justify-content: space-around;
+}
+
+.nav-items   svg{
+/* fill: wheat;
+margin-left: 10px; */
+
+}
+
+ .home-section{
+ display: flex;
+ justify-content: right;
+ 
+ /* margin-top: -40rem; */
+  text-align: center;
+  line-height: 2.6;
+ color: #fff;
+ font-family: Arial, Helvetica, sans-serif; 
+} 
+
+
+#home-section{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+               url('./images/lappy.jpg') no-repeat center center/cover;
+  position: relative; 
+  height: 100vh;
+  width: 69.5rem;
+
+  margin-top: -38rem;
+  padding: 15%;
+}
+
+.container{
+  margin-top: -15%;
+}
+#home-section h2{
+  font-size: 30px;
+  font-weight: 600;
+  transform: scale(.5, 2);
+  /* transform: translate(-50%,-50%); */
+  /* -ms-transform: translate(-50%,-50%); */
+
+  letter-spacing: 5px;
+
+}
+
+
+.resume{
+  background: #fff;
+  width: 14rem;
+  padding: 10px;
+  color: #000;
+  cursor: pointer;
+  margin: 0 auto;
+  font-weight: 200;
+
+}
+
+.resume:hover{
+  background-color: rgb(240, 129, 89);
+  color: greenyellow;
+}
+
+.resume:active{
+  background-color: green;
+}

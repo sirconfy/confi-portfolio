@@ -1,0 +1,71 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  transition: 0.3s ease;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* section{
+  padding: 100px 200px;
+} */
+
+.hamburger-wrapper{
+  display: none;
+}
+
+.nav-items  .nav-links{
+  font-size: 17px;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-items .nav-links:hover{
+  background-color: #ffffff;
+  color:rgb(47, 46, 45);
+  border-radius: 2px;
+}
+
+
+.logo-wrapper .logo{
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Dancing Script';
+  font-weight: 700;
+}
+
+
+
+@media (max-width: 900px){
+
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+  
+    .hamburger-wrapper{
+      display: block;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 25px;
+    
+    }
+    .nav-items{
+      display: none;
+    }
+    .open-nav-items{
+      display:flex;
+      flex-direction: column;
+      margin-top: 50px;
+      width: 100%;
+    }
+    .nav-links{
+      text-align: right;
+    }
+  }
+  
+    /* MAIN SECTION */
