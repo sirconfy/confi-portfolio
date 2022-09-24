@@ -31,8 +31,8 @@ body {
 
 .nav-bar p img {
   height: 30px;
-  width: 120%;
-  padding-right: 2rem;
+  /* width: 120%;
+  padding-right: 2rem; */
 }
 
 .nav-bar i {
@@ -180,6 +180,9 @@ body {
 
 .bd {
   background-color: #ccccc1;
+}
+.about h2 {
+  padding-top: 2rem;
 }
 
 .about h2,
@@ -376,7 +379,9 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.work h2 {
+  top: -5rem;
+}
 .work .recent-work div {
   position: relative;
   overflow: hidden;
@@ -639,11 +644,9 @@ input[type="text"] {
     flex-direction: column;
     padding: 10px;
   }
-  .nav-bar p img {
-    height: 30px;
-    width: 100%;
-    /* padding-right: 2rem; */
-  }
+  /* .nav-bar p img {
+    width: 70%;
+  } */
 
   .left-about {
     text-align: center;
