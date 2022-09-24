@@ -1,23 +1,26 @@
-// const navItemContainer = document.getElementById("nav-item-wrapper");
-
-
-// function that opens and close the nav menubar
-// function forMenu() {
-//     navItemContainer.classList.toggle("open-nav-items")
-// }
-
-
-var MenuItems = document.getElementById("MenuItems");
-MenuItems.style.maxHeight ="0px";
-function menutoggle() {
-  if( MenuItems.style.maxHeight =="0px")
+const rev = ScrollReveal({
+  orgin: "top",
+  distance: "40px",
+  duration: 2000,
+  reset: true,
+});
+rev.reveal(
+  `.home-content,.left-about,.right-about,.frontend,.backend,.work,.contact-form`,
   {
-    MenuItems.style.maxHeight ="200px"
+    interval: 200,
   }
-  else
-  {
-    MenuItems.style.maxHeight ="0px";
-  }
-}
-
-
+);
+$(document).ready(function () {
+  $("#bar-animation").click(function () {
+    $(".menu").addClass("comeIn");
+    $("body").css("overflow", "hidden");
+  });
+  $("#cross").click(function () {
+    $(".menu").removeClass("comeIn");
+    $("body").css("overflow", "visible");
+  });
+  $("li").click(function () {
+    $(".menu").removeClass("comeIn");
+    $("body").css("overflow", "visible");
+  });
+});

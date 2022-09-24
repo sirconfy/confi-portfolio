@@ -1,325 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-  integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
-  <link rel="stylesheet" href="index.css">
-  <title>confidence-portfolio</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confidence || Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-
-  <header>
-    <div class="overview" id="index.html"  >
-       
-      <div id="collect" id="menuItems">
-    
-      <img src="./images/sirconfy.jpeg" alt="">
-      <h3>Chidi Confidence</h3>
-    <nav>
-      <div class="social-buttons">
-        <a href="https://wa.link/nfsmcp"target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.facebook.com/confidece.chidi"target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/Sirconfy" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/chidi-confidence-50a77b199"target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      </div> 
-     
-      <div class="nav-items" >
-        <a href="#index.html"> <svg xmlns="http://www.w3.org/2000/svg" 
-          width="16" 
-          height="16"
-          fill="currentColor"
-           class="bi bi-house-door"
-            viewBox="0 0 16 16">
-          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-           </svg>Home</a>
-        <a href="#about.html" class="nav-links" >
-          <svg xmlns="http://www.w3.org/2000/svg"
-           width="16" height="16" 
-           fill="currentColor" 
-           class="bi bi-file-person" 
-           viewBox="0 0 16 16">
-          <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-          <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-        </svg>About</a>
-        <a href="#work.html" class="nav-links">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-          width="16" height="16" fill="currentColor"
-           class="bi bi-ethernet" viewBox="0 0 16 16">
-          <path d="M14 13.5v-7a.5.5 0 0 0-.5-.5H12V4.5a.5.5 0 0 0-.5-.5h-1v-.5A.5.5 0 0 0 10 3H6a.5.5 0 0 0-.5.5V4h-1a.5.5 0 0 0-.5.5V6H2.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5ZM3.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25Zm2 0h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25Zm1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5ZM9.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25Zm1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5Z"/>
-          <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2ZM1 2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2Z"/>
-        </svg>Work</a>
-        <a href="#contact.html" class="nav-links" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-          <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
-        </svg>Contact</a>
-      </div>
-      <div class="nav-footer">
-        <p>	&copy; Copyright </p>
-          <p><strong>Sirconfy Portfoilio 2020 </strong></p>
-      </div>
-    </nav>
-  </div>
-  </div> 
-</header> 
-
-  <section class="home-section">
-    <div id="home-section">
-      
-<h1>Hello</h1>
-<h4><strong>I am Chidi Confidence Obumneke</strong></h4>
-<p>a Software Engineer.</p>
-<br>
-
-<div class="resume"> <a href="./images/Chidi Confidence Resume.pdf" download>
-      <svg xmlns="http://www.w3.org/2000/svg" 
-    width="16"
-     height="16"
-      fill="currentColor" 
-      class="bi bi-download" 
-      viewBox="0 0 16 16">
-    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-  </svg> 
-  Download CV </a>
-</div>
-</div>
-</section>
-
-<main >
- <!-- ABOUT ME SECTION -->
- <div  class="about" id="about.html">
-  <h5>About Me</h5>  
-    <div class="about-content" >
-  
-      <img src="images/boss.png" alt="confi-pix">
-      <div class="my-info">
-        <h1>Hello, I am Confidence</h1>
-        <p>Chidi Confidence is a technology enthusiast, a frontend developer and a fellow at TIIDelab.
-           Confidence has experience with HTML, CSS, and Javascript which he uses to create websites and applications that proffer 
-           solutions to problems.
-           Confidence is passionate about learning the trends the tech world is taking so that he can build better,
-           faster and efficient tools to help solve problems now, or in future.
-           He is currently doing that with with Javascript and React.js.
-        </p>
-      <table>
-    
-        <tr>
-          <td>Name</td>
-          <td>Chidi Confidence Obumneke</td>
-        </tr>
-        <tr>
-          <td>Phone</td>
-          <td>+2347026116518</td>
-        </tr>
-        <tr>
-          <td>Email</td>
-          <td>csirconfy@gmail.com</td>
-        </tr>
-        <tr>
-          <td>Linkdin</td>
-          <td>www.linkedin.com/in/chidi-confidence</td>
-        </tr>
-        
-      </table>
-    </div>
-  </div>
-  <hr>
-
-  <div>
-    <h4 class="tittle">Images of Me During TIIDELab Meetup</h4>
-<div class="container-gallery">
-  <div class="gallery">
-      <figure class="gallery__item gallery__item--1">
-          <img src="./images/breakfast.jpeg" alt="Gallery image 1" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--2">
-          <img src="./images/group.jpg" alt="Gallery image 2" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--3">
-          <img src="./images/weger.jpeg" alt="Gallery image 3" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--4">
-          <img src="./images/hoh.jpg" alt="Gallery image 4" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--5">
-          <img src="./images/meetup.jpeg" alt="Gallery image 5" class="gallery__img">
-      </figure>
-      <figure class="gallery__item gallery__item--6">
-          <img src="./images/hacksultan.jpg" alt="Gallery image 6" class="gallery__img">
-      </figure>
-  </div>
-</div>
-</div>div>
-
- 
-
- 
-<!-- 
-  STACK SECTION -->
-
-  <section class="myWork">
-    <section class="section project-section" id="work.html">
-      <h4>Projects</h4>
-      <div class="section project-card-wrapper" >
-        <section class="project-card-wrapper">
-          <div class="project-card">
-            <img src="./images/product.png" alt="product pic">
-            <section class="card-content">
-    
-              <h3 class="project-title">Market Place App </h3>
-                <p class="project-brief">Powered by the Hern Stack. A place for buying and selling of goods and services
-    
-                </p>
-            </section>
-            <section class="project-links"><a href="https://github.com/sirconfy/E-commerce-app"  target="_blank" rel="noopener noreferrer">
-             
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                width="16" 
-                height="16" 
-                fill="currentColor" 
-                class="bi bi-github" 
-                viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-              </svg>
-            </a>
-            <a href=" https://sirconfy-market-app.netlify.app" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                width="16"
-                 height="16" 
-                 fill="currentColor"
-                  class="bi bi-globe2" 
-                  viewBox="0 0 16 16">
-                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.75 4.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
-              </svg></a>
-            </section>
-    
-          </div>
-    
-          <div class="project-card">
-            <img src="images/loan calc.png" alt="product pic">
-            <section class="card-content">
-              <h3 class="project-title">A lOAN Calculator App</h3>
-                <p class="project-brief">The app is used for calculating the amount to be paid for interest and the exact year to refund the loan
-    
-            </section>
-            <section class="project-links">
-              <a href="https://github.com/sirconfy/loan-calculator" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                width="16" 
-                height="16" 
-                fill="currentColor" 
-                class="bi bi-github" 
-                viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-              </svg>
-            </a>
-              <a href="https://confy-loan-calculator.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                width="16"
-                 height="16" 
-                 fill="currentColor"
-                  class="bi bi-globe2" 
-                  viewBox="0 0 16 16">
-                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.75 4.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
-              </svg></a>
-            </section>
-          </div>
-    
-          <div class="project-card">
-            <img src="images/weather.png" alt="product pic">
-            <section class="card-content">
-    
-              <h3 class="project-title">WEATHER REPORT APP</h3>
-                <p class="project-brief">Powered by Google Geolocation Api. The App is for eporting weather condition of any searched location or region
-                </p>
-            </section>
-            <section class="project-links">
-              <a href="https://github.com/sirconfy/weather-report-app" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                width="16" 
-                height="16" 
-                fill="currentColor" 
-                class="bi bi-github" 
-                viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-              </svg>
-            </a>
-              <a href="https://weather-report-app-17e23.web.app/" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                width="16"
-                 height="16" 
-                 fill="currentColor"
-                  class="bi bi-globe2" 
-                  viewBox="0 0 16 16">
-                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.75 4.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
-              </svg></a>
-            </section>
-          </div>
-        </section>
-      </div>
-    
-  
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <div class="background" id="contact.html">
     <div class="container">
-      <div class="screen">
-        </div>
-        <div class="screen-body">
-          <div class="screen-body-item left">
-            <div class="app-title">
-              <span>CONTACT ME</span>
+        <nav>
+            <div class="nav-bar"> <i class="fas fa-bars" id="bar-animation"></i>
+                <p><a href="#Home"><img src="images/logo.png"  class="logo"/></a></p>
             </div>
-            <div class="app-contact">CONTACT INFO : +2347062116518</div>
-          </div>
-          <div class="screen-body-item">
-            <div class="app-form">
-              <div class="app-form-group">
-                <form name="contact" method="POST" data-netlify="true">
-                <input type="text" name="name" class="app-form-control" placeholder="NAME" >
-              </div>
-              <div class="app-form-group">
-                <input type="email" name="email" class="app-form-control" placeholder="EMAIL">
-              </div>
-              <div class="app-form-group">
-                <input type="number" name="number" class="app-form-control" placeholder="CONTACT NO">
-              </div>
-              <div class="app-form-group message">
-                <input type="text" name="message" class="app-form-control" placeholder="MESSAGE">
-              </div>
-              <div class="app-form-group buttons">
-                <button class="app-form-button">CANCEL</button>
-                <button type="submit" class="app-form-button">SEND</button>
+            <div class="menu"> <i class="fas fa-times cross" id="cross"></i>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <div class="container-wrapper">
+            <div class="home" id="Home">
+                <div class="home-content"> <img src="images/sirconfy.png" class="profile-image" />
+                    <div class="name">
+                        <p>Chidi Confidence</p>
+                        <p>Frontend Developer</p>
+                    </div>
+                    <div class="social-media">
+                        <ul>
+                            <li> <a href="https://twitter.com/Sirconfy" target="_blank"><i class="fab fa-twitter"></i></a> </li>
+                            <li> <a href="https://www.linkedin.com/in/chidi-confidence"target="_blank"><i class="fab fa-linkedin-in"></i></a> </li>
+                            <li> <a href="https://github.com/sirconfy" target="_blank"><i class="fab fa-github"></i></a> </li>
+                            <li> <a href="https://wa.link/nfsmcp"target="_blank"><i class="fab fa-whatsapp"></i></a>  </li>
+                            <!-- <li> <a href="https://sirconfy.hashnode.dev/"target="_blank"><i class="fab fa-hashnode"></i></a>  </li>
+                         -->
+                        </ul>
+                    </div> <a href="./images/Chidi Confidence  Resume.pdf" download  class="btn-resume"> <i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div> <!-- About Section-->
+            <div class="about" id="About">
+                <h2>About Me</h2>
+                <!--About content-->
+                <div class="about-wrapper">
+                    <!--Left Div-->
+                    <div class="left-about">
+                        <p> Hello, I am Chidi Confidence, a technology enthusiast, a frontend developer. I am  passionate about creating and developing web application.
+                             Confidence is passionate about learning the trends the tech world is taking so that he can build better,
+                            faster and efficient tools to help solve problems now, or in future.</p>
+                        <div class="about-image">
+                            <div class="image-border"></div> <img src="images/sirconfy.png"  class="bd"/>
+                        </div>
+                    </div>
+                    <!--Right Div-->
+                    <div class="right-about">
+                        <div class="information">
+                            <h3>Information</h3>
+                            <!--inside Information div-->
+                            <div class="info">
+                                <!--Inside info Div-->
+                                <div class="info-data"> <i class="fas fa-user"></i>
+                                    <p>Chidi Confidence Obumneke</p>
+                                </div>
+                                <div class="info-data"> <i class="fas fa-phone-alt"></i>
+                                    <p>+234-706-2116-518</p>
+                                </div>
+                                <div class="info-data"> <i class="fas fa-envelope"></i>
+                                    <p>csirconfy@gmail.com</p>
+                                </div>
+                            </div> <br />
+                            <!--Inside information div-->
+                            <div class="Experience">
+                                <h3>Experience</h3>
+                                <!--Inside Experience Div-->
+                                <div class="exp">
+                                    <!--Inside exp div-->
+                                    <div class="info-data"> <i class="fas fa-medal"></i>
+                                        <div>
+                                            <p>6 months Software Developer Intern @TIIDELab </p>
+                                            <p> 4,392 hours on software developer profile along with project work built my team
+                                                @ TIIDELab </p>
+                                        </div>
+                                    </div>
+                                    <div class="info-data"> <i class="fas fa-suitcase"></i>
+                                        <div>
+                                            <p>2+ Projects</p>
+                                            <p>Completed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Skills Section-->
+            <div class="skills" id="Skills">
+                <h2>My Expertise Area</h2>
+                <!--Technology -->
+                <div class="technologies">
+                    <div class="frontend">
+                        <div class="frontend-data">
+                            <h3>NonTechnnical Skills</h3>
+                            <div class="frontend-tech">
+                                <div>
+                                    <p><span>Technical Writing</span><span>80%</span></p>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <p><span>Communication Skill</span><span>70%</span></p>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <p><span>Collaboration Skill</span><span>80%</span></p>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backend">
+                        <div class="backend-data">
+                            <h3>Frontend</h3>
+                            <div class="backend-tech">
+                                <div>
+                                    <p><span>HTML/CSS</span><span>80%</span></p>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <p><span>Javascript</span><span>70%</span></p>
+                                    <div></div>
+                                </div>
+                              
+                                <div>
+                                    <p><span>React.js</span><span>70%</span></p>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <p><span>Git</span><span>80%</span></p>
+                                    <div></div>
+                                </div>
+                                
+                                 <!-- <div>
+                                    <p><span>Mysql</span><span>80%</span></p>
+                                    <div></div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work" id="Work">
+                <h2>Recent Work</h2>
+                <div class="recent-work">
+                    <div> <img src="/images/agroease.png"> <span><a href="#" target="_blank">Demo</a></span> <label>Agritech product</label> </div>
+                    <div> <img src="images/weather.png"/> <span><a href="https://weather-report-app-17e23.web.app/"target="_blank">Demo</a></span> <label>weather-report-app</label> </div>
+                    <div> <img src="images/loan calc.png" /> <span><a href="https://confy-loan-calculator.netlify.app/"  target="_blank">Demo</a></span> <label>Loan Calculator</label> </div>
+                    <div> <img src="/images/salon.png"/> <span><a href="#" target="_blank">Demo</a></span> <label>Product in view</label> </div>
+                </div>
+            </div>
+            <div class="contact" id="Contact">
+                <h2>Any Project in Mind Contact us</h2>
+
+                <div class="contact-form">
+                    <div class="input-details">
+                        <h3>Contact us</h3>
+                        <form name="contact" method="POST" data-netlify="true">
+                        <div class="input-container"> <label>Full Name</label> <input type="text" placeholder="Full Name" /> </div>
+                        <div class="input-container"> <label>Email Address</label> <input type="text" placeholder="Email Address" /> </div>
+                    </div>
+                    <div class="input-message"> <textarea placeholder="write message to us"></textarea> <button><i class="fas fa-arrow-right"></i>Send Message</button> </div>
                 </form>
-              </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-     
     </div>
-  </div>
-
-</main>
-
-<!-- FOOTER -->
-<footer>
-  <div class="footer">
-    <address>
-       <a href="mailto:webmaster@example.com"><label><i class="fas fa-envelope"></i></label> csirconfy@gmail.com</a>
-
-      </address>
-  </div>
-</footer>
-
-
-  <script src="/app.js"></script>
+    <div class="foot">
+          <p><i>&copy; Copyright Sirconfy Portfolio 2022 </i></p>
+        </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/app.js"></script>
 </body>
+
 </html>
