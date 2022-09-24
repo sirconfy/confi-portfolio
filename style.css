@@ -380,7 +380,7 @@ body {
   height: 100%;
 }
 .work h2 {
-  top: -5rem;
+  top: -4rem;
 }
 .work .recent-work div {
   position: relative;
@@ -662,6 +662,10 @@ input[type="text"] {
   .work .recent-work div {
     width: 300px;
     height: 300px;
+  }
+  .work h2 {
+    top: 2rem;
+    margin-bottom: 6rem;
   }
 
   .contact-form {
