@@ -11,9 +11,6 @@
 html {
   scroll-behavior: smooth;
 }
-title .log {
-  height: 30px;
-}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -641,6 +638,11 @@ input[type="text"] {
   .about-wrapper {
     flex-direction: column;
     padding: 10px;
+  }
+  .nav-bar p img {
+    height: 30px;
+    width: 100%;
+    /* padding-right: 2rem; */
   }
 
   .left-about {
